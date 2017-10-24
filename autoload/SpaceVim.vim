@@ -135,7 +135,7 @@ let g:spacevim_enable_neocomplcache    = 0
 " >
 "   let g:spacevim_enable_cursorline = 0
 " <
-let g:spacevim_enable_cursorline       = 1
+let g:spacevim_enable_cursorline       = 0
 ""
 " Set the statusline separators of statusline, default is 'arrow'
 " >
