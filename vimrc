@@ -62,14 +62,9 @@ set backspace=indent,eol,start
 " Colors
 set t_Co=256
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
-colorscheme elflord
-syntax on
 
 " Powerline
 set laststatus=2
-
-" Ruler
-"set colorcolumn=80
 
 " Invisible character setting
 set list
