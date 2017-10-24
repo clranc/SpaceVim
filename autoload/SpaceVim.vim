@@ -237,7 +237,7 @@ let g:spacevim_colorscheme_bg             = 'dark'
 " >
 "   let g:spacevim_colorscheme_default = 'other_color'
 " <
-let g:spacevim_colorscheme_default     = 'desert'
+let g:spacevim_colorscheme_default     = 'elflord'
 ""
 " Enable/disable simple mode of SpaceVim. Default is 0.
 " In this mode, only few plugins will be installed.

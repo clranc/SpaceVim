@@ -23,7 +23,6 @@ noremap j h
 "noremap ; <Home>
 "noremap ' <End>
 
-
 " Kill Trailing WhiteSpace
 nnoremap <F5> :let _save = winsaveview()<Bar>:let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:call winrestview(_save)<Bar><CR>
 
@@ -39,17 +38,13 @@ set showcmd
 " Perform incremental searches
 set incsearch
 
-" Vundle
-source ~/.vimrc_vundle
-
-" Bundles
-source ~/.vimrc_bundles
-
+" ============================================================================
 " Note: Skip initialization for vim-tiny or vim-small.
 if 1
   execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/main.vim'
 endif
 " vim:set et sw=2
+" ============================================================================
 
 " User files (optional)
 silent! source ~/.vimrc_user
